@@ -10,6 +10,7 @@ pond:
   logo: assets/logo.svg
   logo-dark: assets/logo-dark.svg
   favicon: assets/icon.svg
+  css: assets/custom.css
   theme:
     accent: 486e20
     accent-dark: 90dd40
