@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a malicious app or security problem
+    url: https://github.com/FuriHub/repo/security/advisories/new
+    about: Report privately to the maintainers. Please don't open a public issue.
+  - name: How apps get into FuriHub
+    url: https://github.com/FrogPak/engine/blob/main/docs/apps.md
+    about: How developers provide the release bundles FuriHub publishes.

@@ -1,0 +1,55 @@
+name: Remove an app
+description: Ask for an app to be removed from FuriHub.
+title: "Remove app: "
+labels: ["removal request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Is the app malicious, or does it have a security problem?** Don't use this form; issues are public. [Report it privately](https://github.com/FuriHub/repo/security/advisories/new) instead.
+
+        **What removal does:** the app disappears from FuriHub and its page at the next publish. Copies already installed on phones are *not* uninstalled; they just stop getting updates. FuriHub can only remove a whole app, not a single version.
+
+  - type: input
+    id: app-id
+    attributes:
+      label: App ID
+      placeholder: org.example.Notes
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      options:
+        - I'm the developer and withdraw permission to distribute it
+        - Abandoned (no updates, or the repository is gone or archived)
+        - Broken (doesn't install or run on FuriOS)
+        - License doesn't allow redistribution
+        - Something else
+    validations:
+      required: true
+
+  - type: input
+    id: proof
+    attributes:
+      label: Proof you're the developer
+      description: Only for withdrawals. Link to an issue, commit or release note in the app's own repository that asks for the removal, or file this request from the repository owner's account.
+      placeholder: https://github.com/owner/repo/issues/123
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What's wrong. For broken apps, the device, FuriOS version and error message.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: understood
+    attributes:
+      label: Understood
+      options:
+        - label: I understand that removal does not uninstall copies people already have.
+          required: true
