@@ -2,9 +2,19 @@
 # https://github.com/FrogPak/engine/blob/main/docs/configuration.md
 
 pond:
-  title: My Pond                 # shown on the landing page and in software centers
-  subtitle: Apps by me           # optional
-  remote: mypond                 # the name people type: flatpak install mypond <app ID>
+  title: FuriHub
+  subtitle: A signed Flatpak remote for apps built by and for the FuriLab community
+  remote: repo
+  arches:
+    - aarch64
+  logo: assets/logo.svg
+  logo-dark: assets/logo-dark.svg
+  favicon: assets/icon.svg
+  theme:
+    accent: 486e20
+    accent-dark: 90dd40
+    background: f0f0f4
+    background-dark: 2e2e33
 
 apps:
   # One entry per app: its app ID, then the repository whose releases hold
