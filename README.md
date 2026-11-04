@@ -1,6 +1,6 @@
 # FuriHub
 
-FuriHub provides a signed Flatpak remote for apps built by and for the FuriLab* community.
+FuriHub provides a signed Flatpak remote for apps built by and for the FuriLabs* community.
 
 The landing page lists every app with its install command: **https://furihub.github.io/repo/**
 
@@ -23,4 +23,4 @@ Bugs and feature requests go to the app's developer, in the repository linked on
 
 
 
-*FuriHub is entirely a community-led project and is not sanctioned by or associated with FuriLabs.
+*FuriHub is entirely a community-led project and is not sanctioned by or associated with FuriLabs.  FuriLabs is not responsible for FuriHub or its contents.  Please do not report issues with FuriHub or the apps listed within it to the FuriLabs team.
