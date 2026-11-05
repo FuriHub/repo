@@ -43,7 +43,7 @@ apps:
   io.github.shinyvision.NextcloudGtk:
     repo: shinyvision/furios-nextcloud
     assets: "nextcloud-gtk.flatpak"
-  net.dunevenet.Ripples:
+  net.dunevent.Ripples:
     repo: ajdunevent/Ripples
     assets: "{name}-*-{arch}.flatpak"
   net.dunevent.Sanctum:
