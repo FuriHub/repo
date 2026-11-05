@@ -40,12 +40,45 @@ apps:
   net.dunevent.Cajole:
     repo: ajdunevent/Cajole
     assets: "{name}-*-{arch}.flatpak"
+  #io.github.nico359.camera:
+  #  repo: nico359/camera
+  #  assets: ""
+  #de.cais.Emilia:
+  #  repo: misc-de/emilia
+  #  assets: ""
+  #io.github.nico359.expenses:
+  #  repo: nico359/expenses
+  #  assets: ""
+  #de.cais.KeyFinder:
+  #  repo: misc-de/KeyFinder
+  #  assets: ""
+  #io.github.nico359.loci:
+  #  repo: nico359/loci
+  #  assets: ""
+  #de.cais.Muga:
+  #  repo: misc-de/Muga
+  #  assets: ""
   io.github.shinyvision.NextcloudGtk:
     repo: shinyvision/furios-nextcloud
     assets: "nextcloud-gtk.flatpak"
+  io.github.nico359.pinepal:
+    repo: nico359/pinepal
+    #assets: ""
   net.dunevent.Ripples:
     repo: ajdunevent/Ripples
     assets: "{name}-*-{arch}.flatpak"
   net.dunevent.Sanctum:
     repo: ajdunevent/Sanctum
     assets: "{name}-*-{arch}.flatpak"
+  #de.cais.Schwupp:
+  #  repo: misc-de/Schwupp
+  #  assets: ""
+  #io.github.nico359.simplesync:
+  #  repo: nico359/simplesync
+  #  assets: ""
+  #io.github.nico359.speedometer:
+  #  repo: nico359/speedometer
+  #  assets: ""
+  #de.cais.webappmanager:
+  #  repo: misc-de/WebApp-Manager
+  #  assets: ""
