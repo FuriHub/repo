@@ -43,14 +43,23 @@ apps:
   #io.github.nico359.camera:
   #  repo: nico359/camera
   #  assets: ""
+  #io.github.deluxo.deltachat-gtk:
+  #  repo: Deluxo/deltachat-gtk
+  #  assets: ""
   #de.cais.Emilia:
   #  repo: misc-de/emilia
   #  assets: ""
   #io.github.nico359.expenses:
   #  repo: nico359/expenses
   #  assets: ""
+  #io.github.deluxo.high-tide:
+  #  repo: Deluxo/high-tide
+  #  assets: ""
   #de.cais.KeyFinder:
   #  repo: misc-de/KeyFinder
+  #  assets: ""
+  #io.github.deluxo.kore-rs:
+  #  repo: Deluxo/kore-rs
   #  assets: ""
   #io.github.nico359.loci:
   #  repo: nico359/loci
