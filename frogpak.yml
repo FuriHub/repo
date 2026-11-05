@@ -22,30 +22,30 @@ apps:
   # its .flatpak files.
   #org.example.MyApp:
   #  repo: example/myapp  # for GitHub repos
-  #  assets: {app_id}-{arch}.flatpak  # Default format
+  #  assets: "{app_id}-{arch}.flatpak"  # Default format
   #org.example.Notes:
   #  repo: https://codeberg.org/alex/notes # Codeberg repos do not need 'forge' set
-  #  assets: {app_id}.flatpak
+  #  assets: "{app_id}.flatpak"
   #org.example.Paint:
   #  repo: https://forge.example.org/alex/paint
   #  forge: forgejo
-  #  assets: {name}-*-{arch}.flatpak
+  #  assets: "{name}-*-{arch}.flatpak"
   #org.example.Mail:
   #  repo: https://git.example.org/lisa/mail
   #  forge: gitea
-  #  assets: {name}-{arch}-latest.flatpak
+  #  assets: "{name}-{arch}-latest.flatpak"
   net.dunevent.Barkeep:
     repo: ajdunevent/Barkeep
-    assets: {name}-*-{arch}.flatpak
+    assets: "{name}-*-{arch}.flatpak"
   net.dunevent.Cajole:
     repo: ajdunevent/Cajole
-    assets: {name}-*-{arch}.flatpak
+    assets: "{name}-*-{arch}.flatpak"
   io.github.shinyvision.NextcloudGtk:
     repo: shinyvision/furios-nextcloud
-    assets: nextcloud-gtk.flatpak
+    assets: "nextcloud-gtk.flatpak"
   net.dunevenet.Ripples:
     repo: ajdunevent/Ripples
-    assets: {name}-*-{arch}.flatpak
+    assets: "{name}-*-{arch}.flatpak"
   net.dunevent.Sanctum:
     repo: ajdunevent/Sanctum
-    assets: {name}-*-{arch}.flatpak
+    assets: "{name}-*-{arch}.flatpak"
