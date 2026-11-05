@@ -22,7 +22,7 @@ apps:
   # its .flatpak files.
   #org.example.MyApp:
   #  repo: example/myapp  # for GitHub repos
-  #  assets: "{app_id}-{arch}.flatpak"  # Default format
+  #  assets: "{app_id}-{arch}.flatpak"  # Default format (can be omitted)
   #org.example.Notes:
   #  repo: https://codeberg.org/alex/notes # Codeberg repos do not need 'forge' set
   #  assets: "{app_id}.flatpak"
@@ -61,9 +61,9 @@ apps:
   io.github.shinyvision.NextcloudGtk:
     repo: shinyvision/furios-nextcloud
     assets: "nextcloud-gtk.flatpak"
-  io.github.nico359.pinepal:
-    repo: nico359/pinepal
-    #assets: ""
+  #io.github.nico359.pinepal:
+  #  repo: nico359/pinepal
+  #  assets: ""
   net.dunevent.Ripples:
     repo: ajdunevent/Ripples
     assets: "{name}-*-{arch}.flatpak"
