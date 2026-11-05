@@ -50,6 +50,9 @@ apps:
   #  assets: ""
   io.github.nico359.expenses:
     repo: nico359/expenses
+  com.luigi311.fitness-tracker:
+    repo: luigi311/fitness-tracker
+    assets: "{app_id}.{arch}.flatpak"
   #io.github.deluxo.high-tide:
   #  repo: Deluxo/high-tide
   #  assets: ""
