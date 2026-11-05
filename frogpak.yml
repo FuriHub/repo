@@ -4,7 +4,7 @@
 pond:
   title: FuriHub
   subtitle: A signed Flatpak remote for apps built by and for the FuriLab community
-  remote: repo
+  remote: furihub
   arches:
     - aarch64
   logo: assets/logo.svg
