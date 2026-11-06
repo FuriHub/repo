@@ -9,7 +9,11 @@ The landing page lists every app and how to install it: **https://furihub.github
 ## Adding an app
  
 - **Not a developer, or not sure?** Open an issue with the [Add an app](https://github.com/FuriHub/repo/issues/new?template=add-app.yml) form.
-- **Comfortable with Git?** Open a pull request that adds the app to `pond.yml`, using the format in FrogPak's [configuration reference](https://frogpak.org/docs/configuration.html#apps). If the release files aren't named `APP_ID-aarch64.flatpak`, see [Asset patterns](https://frogpak.org/docs/configuration.html#asset-patterns). In the pull request, include the app's license, a link to a release with the aarch64 bundle, and the device and FuriOS version you tested it on.
+- **Comfortable with Git?** Open a pull request that adds the app in either of two ways:
+  - Under `apps:` in `pond.yml`.
+  - In its developer's own file in [`pond.d/`](pond.d), named after the start of the app ID: `io.github.nico359.camera` is in `pond.d/io.github.nico359.yml`. For a new file, start from [`pond.d/example.yml`](pond.d/example.yml) and add it to the `include:` list in `pond.yml`.
+
+  Use the format in FrogPak's [configuration reference](https://frogpak.org/docs/configuration.html#apps). If the release files aren't named `APP_ID-aarch64.flatpak`, see [Asset patterns](https://frogpak.org/docs/configuration.html#asset-patterns). In the pull request, include the app's license, a link to a release with the aarch64 bundle, and the device and FuriOS version you tested it on.
 
 ## Removing an app
  
