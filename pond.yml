@@ -16,6 +16,7 @@ pond:
     accent-dark: 90dd40
     background: f0f0f4
     background-dark: 2e2e33
+  order: name
 
 apps:
   # One entry per app: its app ID, then the repository whose releases hold
