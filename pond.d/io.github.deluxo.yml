@@ -1,0 +1,30 @@
+apps:
+  # ---------------------
+  # Examples:
+  # ---------------------
+  #org.example.MyApp:
+  #  repo: example/myapp  # for GitHub repos
+  #  assets: "{app_id}-{arch}.flatpak"  # Default format (can be omitted)
+  #org.example.Notes:
+  #  repo: https://codeberg.org/alex/notes # Codeberg repos do not need 'forge' set
+  #  assets: "{app_id}.flatpak"
+  #org.example.Paint:
+  #  repo: https://forge.example.org/alex/paint
+  #  forge: forgejo
+  #  assets: "{name}-*-{arch}.flatpak"
+  #org.example.Mail:
+  #  repo: https://git.example.org/lisa/mail
+  #  forge: gitea
+  #  assets: "{name}-{arch}-latest.flatpak"
+  # ---------------------
+  # Actual Apps:
+  # ---------------------
+  #io.github.deluxo.deltachat-gtk:
+  #  repo: Deluxo/deltachat-gtk
+  #  assets: ""
+  #io.github.deluxo.high-tide:
+  #  repo: Deluxo/high-tide
+  #  assets: ""
+  #io.github.deluxo.kore-rs:
+  #  repo: Deluxo/kore-rs
+  #  assets: ""

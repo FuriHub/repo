@@ -1,0 +1,33 @@
+apps:
+  # ---------------------
+  # Examples:
+  # ---------------------
+  #org.example.MyApp:
+  #  repo: example/myapp  # for GitHub repos
+  #  assets: "{app_id}-{arch}.flatpak"  # Default format (can be omitted)
+  #org.example.Notes:
+  #  repo: https://codeberg.org/alex/notes # Codeberg repos do not need 'forge' set
+  #  assets: "{app_id}.flatpak"
+  #org.example.Paint:
+  #  repo: https://forge.example.org/alex/paint
+  #  forge: forgejo
+  #  assets: "{name}-*-{arch}.flatpak"
+  #org.example.Mail:
+  #  repo: https://git.example.org/lisa/mail
+  #  forge: gitea
+  #  assets: "{name}-{arch}-latest.flatpak"
+  # ---------------------
+  # Actual Apps:
+  # ---------------------
+  io.github.nico359.camera:
+    repo: nico359/camera
+  io.github.nico359.expenses:
+    repo: nico359/expenses
+  io.github.nico359.loci:
+    repo: nico359/loci
+  io.github.nico359.pinepal:
+    repo: nico359/pinepal
+  io.github.nico359.simplesync:
+    repo: nico359/simplesync
+  io.github.nico359.speedometer:
+    repo: nico359/speedometer
