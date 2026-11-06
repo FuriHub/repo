@@ -12,6 +12,7 @@ pond:
   favicon: assets/icon.svg
   css: assets/custom.css
   theme:
+    mode: dark
     accent: 486e20
     accent-dark: 90dd40
     background: f0f0f4
