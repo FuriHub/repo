@@ -3,7 +3,7 @@
 
 pond:
   title: FuriHub
-  subtitle: A Flatpak remote for apps built by and for the FuriLab user community
+  subtitle: A Flatpak remote for apps built by and for the FuriLabs user community
   remote: furihub
   arches:
     - aarch64
