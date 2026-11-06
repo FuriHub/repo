@@ -1,8 +1,10 @@
 # FuriHub
 
-FuriHub provides a signed Flatpak remote for apps built by and for the FuriLabs* community.
+FuriHub provides a signed Flatpak remote for apps built by and for the FuriLabs* user community.
 
-The landing page lists every app with its install command: **https://furihub.github.io/repo/**
+The landing page lists every app and how to install it: **https://furihub.github.io/repo/**
+
+\*_FuriHub is not associated with FuriLabs.  Please see the full text of the disclaimer below._
 
 ## Adding an app
  
@@ -22,5 +24,10 @@ Please don't open a public issue. [Report it privately](https://github.com/FuriH
 Bugs and feature requests go to the app's developer, in the repository linked on its card at [furihub.github.io/repo](https://furihub.github.io/repo/). FuriHub publishes apps as their developers release them and can't fix them.
 
 
+## Disclaimer
 
-*FuriHub is entirely a community-led project and is not sanctioned by or associated with FuriLabs.  FuriLabs is not responsible for FuriHub or its contents.  Please do not report issues with FuriHub or the apps listed within it to the FuriLabs team.
+FuriHub is an entirely unofficial, community-run project. It is not affiliated with, sanctioned by, endorsed by, or supported by FuriLabs. FuriLabs is not responsible for FuriHub or its contents. Please do not report issues with FuriHub or the apps listed within it to the FuriLabs team.  FuriLabs and FuriOS are trademarks of their respective owners.
+
+The apps in FuriHub are made by their own developers, not by FuriHub. FuriHub republishes each app as its developer releases it and does not review, test, or audit the apps' code. FuriHub cannot guarantee that any app is safe, works correctly, works on your device, or will keep receiving updates.  All apps are provided "as is", without warranty of any kind. You install and use them at your own risk. FuriHub and its maintainers are not responsible for any loss of data, damage to your device, or other harm that results from installing or using an app from this repository.
+
+Each app is distributed under its own license, shown on its card; see the app's repository for details.
