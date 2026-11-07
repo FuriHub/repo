@@ -7,12 +7,11 @@ pond:
   remote: furihub
   arches:
     - aarch64
-  logo-square: assets/logo-square.svg
-  logo-square-dark: assets/logo-square-dark.svg
+  #logo-square: assets/logo-square.svg
+  logo-square: assets/logo-square-dark.svg
+  #logo-square-dark: assets/logo-square-dark.svg
   logo-wide: assets/logo-wide.svg
   logo-wide-dark: assets/logo-wide-dark.svg
-  favicon: assets/logo-square-dark.svg
-  #css: assets/custom.css
   theme:
     mode: dark
     accent: 486e20
