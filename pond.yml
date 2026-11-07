@@ -11,7 +11,7 @@ pond:
   logo-square-dark: assets/logo-square-dark.svg
   logo-wide: assets/logo-wide.svg
   logo-wide-dark: assets/logo-wide-dark.svg
-  #favicon: assets/icon.svg
+  favicon: assets/logo-square-dark.svg
   #css: assets/custom.css
   theme:
     mode: dark
