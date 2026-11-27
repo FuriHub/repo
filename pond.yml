@@ -44,5 +44,6 @@ include:
   - pond.d/io.github.deluxo.yml
   - pond.d/io.github.nico359.yml
   - pond.d/io.github.shinyvision.yml
+  - pond.d/io.github.x_vlad_x.yml
   - pond.d/net.dunevent.yml
   #- pond.d/example.yml
