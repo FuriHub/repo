@@ -1,0 +1,4 @@
+apps:
+  io.github.x_vlad_x.Contrail:
+    repo: x-vlad-x/contrail
+    assets: "{name}-*-{arch}.flatpak"
